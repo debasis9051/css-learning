@@ -1,0 +1,33 @@
+h1{
+    color: aquamarine;
+}
+h1 a:hover{
+color: blueviolet;
+}
+
+.mypic {
+    border-radius: 500px;
+    
+}
+.mypic:hover{
+    /* box-shadow: 8px 3px 30px red; */
+    -webkit-box-shadow: 20px 21px 45px -9px rgba(255,0,72,1);
+-moz-box-shadow: 20px 21px 45px -9px rgba(255,0,72,1);
+box-shadow: 20px 21px 45px -9px rgba(255,0,72,1);
+}
+
+/* class */
+.mypic2{
+    
+    border-radius: 500px;
+
+}
+.mypic2:hover{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); 
+}
+
+.bullet:hover{
+    -webkit-box-shadow: 20px 21px 45px -9px rgba(255,0,72,1);
+-moz-box-shadow: 20px 21px 45px -9px rgba(255,0,72,1);
+box-shadow: 20px 21px 45px -9px rgba(255,0,72,1);
+}
