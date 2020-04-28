@@ -32,17 +32,96 @@ ul {
 
   h1{
       text-align: center;
-     max-width: 500px;
+     max-width: 400px;
      margin: auto;
-     color: black;
+     color: white;
+
      }
 
      .pic{
         display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 500px;
   /* width: 50%; */
         }
-        body {
-            
-            }
+
+.pic:hover{
+  box-shadow: 10px 20px 50px #F4C724;
+
+}
+
+
+      .body{
+        color: #fff;
+        background: -webkit-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%), -webkit-linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+        background: -o-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%), -o-linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+        background: -moz-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%), -moz-linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+        background: linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+      }
+          
+      .paragraph{
+        text-align: center;
+        /* max-width: 400px; */
+        margin: auto;
+        color:whitesmoke;
+        font-size: 30px;
+
+      }
+      h2{
+        text-align: center;
+     max-width: 400px;
+     margin: auto;
+     color: white;
+     font-weight: bold
+      }
+
+      .form-group{
+        width: 150px;
+        padding: 50;
+        margin: 50;
+        margin-left: 25%;
+        box-sizing: border-box;
+        text-align: center;
+        display: inline-block;   
+        /* padding: 12px 20px; */
+        width: 50%;
+        height: 300px;
+      }
+      #email_id {
+        font-size: larger;
+        width: 50%;
+      }
+      #email_id:focus {
+        width: 100%;
+      }
+
+
+      .form-control{
+
+      }
+
+      .myButton {
+        box-shadow: 0px 0px 0px 0px #3dc21b;
+        background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+        background-color:#44c767;
+        border-radius:28px;
+        border:2px solid #18ab29;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:17px;
+        padding:7px 51px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+      }
+      .myButton:hover {
+        background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+        background-color:#5cbf2a;
+      }
+      .myButton:active {
+        position:relative;
+        top:1px;
+      }
+      
