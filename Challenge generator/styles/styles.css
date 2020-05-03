@@ -1,0 +1,46 @@
+.flexbox1{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flexbox1 div{
+    display: flex;
+    padding: 20px;
+    border: 1px solid black;
+    align-items: center;
+}
+.Container-1{
+    border: 1px solid black;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+/* .contain{
+    border: 1px solid black;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+
+} */
+
+.flexbox img{
+    border: 1px solid grey;
+    /* padding: 8px; */
+margin: 10px;
+    -webkit-box-shadow: 6px 8px 22px 13px rgba(92,92,92,0.79);
+-moz-box-shadow: 6px 8px 22px 13px rgba(92,92,92,0.79);
+box-shadow: 6px 8px 22px 13px rgba(92,92,92,0.79);
+
+    
+   
+
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid black;
+}
